@@ -1,3 +1,3 @@
 # using-ngx-charts
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-yv1qyx)
+[Edit on StackBlitz ⚡️](https://angular-ivy-yv1qyx.stackblitz.io)

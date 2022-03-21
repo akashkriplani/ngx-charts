@@ -1,0 +1,35 @@
+<div class="container">
+  <div>
+    <h3>Advance Pie Chart</h3>
+    <ngx-charts-advanced-pie-chart [results]="surveyData" [gradient]="true">
+    </ngx-charts-advanced-pie-chart>
+  </div>
+  <div>
+    <h3>Vertical Bar Chart</h3>
+    <ngx-charts-bar-vertical
+      [view]="[1000, 400]"
+      [results]="surveyData"
+      [xAxisLabel]="'Count'"
+      [legendTitle]="'Vehical Survey'"
+      [yAxisLabel]="'Type of Vehicle'"
+      [legend]="true"
+      [showXAxisLabel]="true"
+      [showYAxisLabel]="true"
+      [xAxis]="true"
+      [yAxis]="true"
+      [gradient]="true"
+    >
+    </ngx-charts-bar-vertical>
+  </div>
+  <div>
+    <h3>Pie Chart</h3>
+    <ngx-charts-pie-chart
+      [results]="surveyData"
+      [legend]="true"
+      [legendTitle]="'Vehicle Survey'"
+      [view]="[1000, 300]"
+      [labels]="true"
+    >
+    </ngx-charts-pie-chart>
+  </div>
+</div>

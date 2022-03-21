@@ -1,0 +1,13 @@
+p {
+  font-family: Lato;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h3 {
+  background-color: lightgrey;
+  padding: 1.1em;
+}
